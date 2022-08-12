@@ -1,0 +1,23 @@
+.header {
+  z-index: 10;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 5rem;
+  border-bottom: 0.1rem solid #E9E9E9;
+  background-color: #fff;
+  padding: 1.5rem 0;
+  &_logo {
+    margin: 0;
+  }
+  &_search {
+    position: absolute;
+    margin-left: 60rem;
+  }
+}
+
+i {
+  margin-left: 0.5rem;
+}
